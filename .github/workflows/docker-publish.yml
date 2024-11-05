@@ -34,8 +34,8 @@ jobs:
           context: .
           push: true
           tags: |
-            your-dockerhub-username/your-repo-name:latest
-            your-dockerhub-username/your-repo-name:${{ github.sha }}
+            hypered1/weread-bot:latest
+            hypered1/weread-bot:${{ github.sha }}
           platforms: linux/amd64,linux/arm64,linux/arm/v7
 
       - name: Logout from DockerHub
